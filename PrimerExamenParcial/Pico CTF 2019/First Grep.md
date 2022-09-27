@@ -15,14 +15,13 @@ grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php)
                                                                              
 ┌──(kiriha㉿kali)-[~/Descargas]
 └─$ grep 'picoCTF' file
-//Revisar notas
+picoCTF{grep_is_good_to_find_things_5af9d829}
                                                                              
 ```
 
 ## Notas
 Usamos grep para viscar picoCTF en file y poder leer la bandera 
 
-Nota del codigo: No pude sacar la bandera por errores que me da la maquina virtual al momento de arrancarlo pero la solucion si es la de arriba, cuando pueda hacer funcionar la maquina virtual actualizare los retos para subir las banderas a mis codigos de obsidian y al picoCTF para que se queden registradas de igual forma en la plataforma y salgan los puntos en mi perfil.
 
 ## Referencias
 grep [tutorial](https://ryanstutorials.net/linuxtutorial/grep.php)

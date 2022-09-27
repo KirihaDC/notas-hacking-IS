@@ -16,17 +16,15 @@ $ man cat
 //que no se te olvide ir a descargas
 ┌──(kiriha㉿kali)-[~]
 └─$ cd Descargas 
-                                                                             
+                                                                 
 ┌──(kiriha㉿kali)-[~/Descargas]
 └─$ grep 'picoCTF' flag
 
-//Revisar notas
+picoCTF{s4n1ty_v3r1f13d_2aa22101}
 ```
 
 ## Notas
 Podemos usar grep para obtener la contraseña o abrir el archivo de manera manual y poder acceder a la bandera correspondiente.
-
-Nota del codigo: No pude sacar la bandera por errores que me da la maquina virtual al momento de arrancarlo pero la solucion si es la de arriba, cuando pueda hacer funcionar la maquina virtual actualizare los retos para subir las banderas a mis codigos de obsidian y al picoCTF para que se queden registradas de igual forma en la plataforma y salgan los puntos en mi perfil.
 
 ## Referencias
  [Descargar bandera](https://mercury.picoctf.net/static/a5683698ac318b47bd060cb786859f23/flag)

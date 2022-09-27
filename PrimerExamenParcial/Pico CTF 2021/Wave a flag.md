@@ -16,36 +16,10 @@ Ejecute este programa ingresando lo siguiente en el indicador de Terminal: `$ .
 No todos los programas implementan funciones de ayuda como -h y --help.
 
 ## Solución 
-``` shell
-┌──(kiriha㉿kali)-[~]
-└─$ cd Descargas
-                                                                             
+``` shell                                             
 ┌──(kiriha㉿kali)-[~/Descargas]
 └─$ ./warm      
 zsh: permiso denegado: ./warm
-                                                                         
-┌──(kiriha㉿kali)-[~/Descargas]
-└─$ ls -la
-total 800
-drwxr-xr-x  2 kiriha kiriha   4096 sep 26 22:00 .
-drwxr-xr-x 16 kiriha kiriha   4096 sep 26 21:39 ..
--rw-r--r--  1 kiriha kiriha  14551 sep 26 13:53 file
--rw-r--r--  1 kiriha kiriha     34 sep 26 21:32 flag
--rw-r--r--  1 kiriha kiriha 776032 sep 26 12:54 strings
--rw-r--r--  1 kiriha kiriha  10936 sep 26 22:00 warm
-                                                                         
-┌──(kiriha㉿kali)-[~/Descargas]
-└─$ chmod 777 warm                                        
-                                                                             
-┌──(kiriha㉿kali)-[~/Descargas]
-└─$ ls -la        
-total 800
-drwxr-xr-x  2 kiriha kiriha   4096 sep 26 22:00 .
-drwxr-xr-x 16 kiriha kiriha   4096 sep 26 21:39 ..
--rw-r--r--  1 kiriha kiriha  14551 sep 26 13:53 file
--rw-r--r--  1 kiriha kiriha     34 sep 26 21:32 flag
--rw-r--r--  1 kiriha kiriha 776032 sep 26 12:54 strings
--rwxrwxrwx  1 kiriha kiriha  10936 sep 26 22:00 warm
                                                                              
 ┌──(kiriha㉿kali)-[~/Descargas]
 └─$ ./warm             
@@ -55,13 +29,11 @@ Hello user! Pass me a -h to learn what I can do!
 └─$ ./warm -h
 Oh, help? I actually don't do much, but I do have this flag here: 
 
-//Revisar Notas
+picoCTF{s4n1ty_v3r1f13d_2aa22101}
 ```
 
 ## Notas
 Debes tomar en cuenta los permisos, aveces solo basta con tener los permisos para pasar de nivel y tener acceso a algunas funciones para poder resover el reto y sacar la bandera.
-
-Nota del codigo: No pude sacar la bandera por errores que me da la maquina virtual al momento de arrancarlo pero la solucion si es la de arriba, cuando pueda hacer funcionar la maquina virtual actualizare los retos para subir las banderas a mis codigos de obsidian y al picoCTF para que se queden registradas de igual forma en la plataforma y salgan los puntos en mi perfil.
 
 ## Referencias
  [linck del programa](https://mercury.picoctf.net/static/fc1d77192c544314efece5dd309092e3/warm)
